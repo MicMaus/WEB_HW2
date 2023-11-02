@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "assistant"
+version = "0.1.0"
+description = "personal assistant"
+authors = ["MicMaus"]
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+tqdm = "4.66.1"
+colorama = "0.4.4"
+twilio = "8.9.1"
+flask = "3.0.0"
+
+[tool.poetry.dev-dependencies]
+include = ["bot_config.txt", "help.txt", "phone_book.bin"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

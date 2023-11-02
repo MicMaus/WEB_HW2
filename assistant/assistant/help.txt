@@ -1,0 +1,32 @@
+
+you can use following commands:
+
+hello - greeting command
+
+add - to add a new contact or add and update information in an existing contact
+change - to change some field in a specific contact
+remove field - to remove one of the contact information of the contact
+remove contact - to entirely remove the specific contact
+search - to search for a contact
+show all - to display all contacts in the address book
+page - to display the specific page of the address book
+contact - to display the contact information of the specific contact
+
+dtb - to calculate the days to the birthday of the specific contact
+sbs - to display birthdays after a specific number of days
+
+view notes - to show all your notes
+new note - to add a new note to the notebook
+delete note - to delete the note by id
+edit text - to edit the text of the selected note
+delete tag - to delete the tag of the selected note
+new tags - to add new tags to the selected note
+find tags - to search notes by tags
+
+sms - sending a text message
+call - sending a voice message
+
+sort files - sorting the folder by a category
+
+help - to display the short guide
+exit / good bye / close - any of these commands will close the bot and save all changes
